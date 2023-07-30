@@ -138,8 +138,9 @@
 }
 #technologies>div:nth-child(1)>p:nth-child(2){
     font-size: 40px;
-    width: 40%;
+    width: 80%;
     font-weight: 200;
+
 }
 #technologies>div:nth-child(1)>p:nth-child(3){
     font-size: 20px; 
@@ -182,6 +183,9 @@
    font-weight: 300;
 }
 @media screen and (max-width:900px) {
+    #technologies>div:nth-child(1)>p:nth-child(2){
+        width: 40%;
+    }
     #technologies{
         flex-wrap: wrap;
         margin-top: 200px;
