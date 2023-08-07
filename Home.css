@@ -153,6 +153,7 @@
     height: auto;
     display: flex;
     justify-content: space-evenly;
+    background-color: black;
 }
 
 #technologies>div {
@@ -176,11 +177,13 @@
 #technologies>div:nth-child(2) {
     background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg);
     background-size: 100% 100%;
+    position: sticky;
 }
 
 #technologies>div:nth-child(3) {
     background-image: url(https://mobirise.com/extensions/boldm5/tech-blog/assets/images/image6.jpg);
     background-size: 100% 100%;
+    position: sticky;
 }
 
 .tech-img {
@@ -191,10 +194,25 @@
     margin-top: 40px;
     transition: 0.5s ease;
     background-image: linear-gradient(to right, gray, white);
+
 }
 
 #technologies>div:nth-child(2):hover .tech-img {
     opacity: 1;
+}
+
+#technologies>div:nth-child(2)>div:nth-child(1)>div {
+    width: 15%;
+    position: absolute;
+    top: 180px;
+    left: 25%;
+}
+
+#technologies>div:nth-child(3)>div:nth-child(1)>div {
+    width: 15%;
+    position: absolute;
+    top: 180px;
+    left: 28%;
 }
 
 #technologies>div:nth-child(3):hover .tech-img {
@@ -215,6 +233,7 @@
     margin-top: 10px;
     font-weight: 500;
 }
+
 
 @media screen and (max-width:900px) {
     #technologies>div:nth-child(1)>p:nth-child(2) {
@@ -253,6 +272,29 @@
     #technologies>div:nth-child(2) {
         width: 90%;
         margin-bottom: 30px;
+    }
+
+    .tech-img {
+        margin-left: 20px;
+        width: 85%;
+    }
+
+    .tech-img img {
+        margin-left: 20px;
+    }
+
+    #technologies>div:nth-child(2)>div:nth-child(1)>div {
+        width: 15%;
+        position: absolute;
+        top: 180px;
+        left: 17%;
+    }
+
+    #technologies>div:nth-child(3)>div:nth-child(1)>div {
+        width: 15%;
+        position: absolute;
+        top: 180px;
+        left: 17%;
     }
 
     #technologies>div:nth-child(3) {
